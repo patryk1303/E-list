@@ -21,3 +21,12 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
 // Include all of Ionic
 @import "www/lib/ionic/scss/ionic";
 
+.item-content {
+  overflow: auto;
+  text-overflow: clip;
+  white-space: initial;
+  
+  small {
+    display: inline-block;
+  }
+}
